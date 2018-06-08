@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">Anant Patel</a>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="home.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Portfolio</a></li>                    
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="container">
+
+        <h2 id="header">Web developer Portfolio</h2>
+        <h4>Check out my latest web software development portfoilio projetcs</h4>
+        <br>
+
+        <div id="buttons">
+          <button id="bamazon" type="button" class="btn btn-secondary">Bamazon</button>
+          <button id="clicky_game" type="button" class="btn btn-secondary">Clicky Game</button>
+          <button id="product_search" type="button" class="btn btn-secondary">Product Search APIs</button>
+          <button id="travel_site" type="button" class="btn btn-secondary">Travel Site</button>
+        </div>
+
+        <br> <br>
+
+        <div class="row">
+          <div class="col-lg-2">
+            <img class="img img-thumbnail" src="assets/images/BamazonNode.jpg">
+          </div>
+          <div class="col-lg-10">
+            <h3>Bamazon app (like Amazon) using Node.js</h3>
+              <ul>    
+                  <li>It’s an Amazon-like storefront with the MySQL coding. The app will take in orders (product id and qty) from customers and deplete stock from the store's inventory.</li>
+                  <li>Manager View: will have the options for managers to 1) View products for sale. 2) View Low Inventory products. 3) Add to Inventory. And 4) Add New products to database.</li>
+              </ul>
+              <br>
+              <a id="link" href="https://drive.google.com/file/d/1ctABKGHqnN0iczwkXy9nlIT3IQexIA8L/view" target="blank"> click here for demo</a>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col-lg-2">
+            <img class="img img-thumbnail" src="assets/images/clickyGame.png">
+          </div>
+          <div class="col-lg-10">
+            <h3>Clicky Game (memory game) using React</h3>
+              <ul>    
+                  <li>The application renders a dozen different images to the screen. The goal is for User to click on each image once and only once and the score gets incremented by 1. After each click, pictures shuffles randomly so user must memorize each picture they already clicked.</li>
+                  <li>If the user clicks all 12 images once, You WIN!!! Message shows up and the highest points are shown above. If the user clicks same image twice, You Lose!!! message displays and game starts again and score resets to 0.</li>
+              </ul>
+              <br>
+              <a id="link" href="https://Anantpatel123.github.io/Hw_14_Clicky-Game" target="blank"> click her to view app</a>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col-lg-2">
+            <img class="img img-thumbnail" src="assets/images/BestBuy_YouTube.jpg">
+          </div>
+          <div class="col-lg-10">
+            <h3>Product Search using Best Buy and YouTube APIs</h3>
+              <ul>    
+                  <li>The app uses 2 API’s using AJAX request. One for BestBuy and one YouTube.</li>
+                  <li>When User inputs a product name into the search box, API call is made using AJAX request and returns an array of products with product details in a JSON format and gets stored in a list under dropdown menu.</li>
+                  <li>When the user picks a specific product from that list, it will show product image, name, description, model#, reg and sale price, and other product related details. It will also, make another API call to YouTube which will return number of videos regarding that specific product. It could be product installation, reviews, or other.</li>
+              </ul>
+              <br>
+              <a id="link" href="https://anantpatel123.github.io/Project_1_APIs/" target="blank"> click her to view app</a>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col-lg-2">
+            <img class="img img-thumbnail" src="assets/images/Travel_site.jpg">
+          </div>
+          <div class="col-lg-10">
+            <h3>Travel Assistance site</h3>
+              <ul>    
+                  <li>An application to assist travelers in finding activities, hotels, attractions, and places to eat during their time and place of travel.</li>
+                  <li>Users can share their personal travel experience on this site, which will help other user to plan their dream vacation all in one site.</li>
+              </ul>
+              <br>
+              <a id="link" href="https://sheltered-eyrie-61571.herokuapp.com/" target="blank"> click her to view app</a>
+          </div>
+        </div>
+
+    </div>
+
+    <br>
+    
+     <!-- Footer -->
+     <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">        
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+    
+              <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1">
+                  <i><a href="https://twitter.com/AnantPatel123" target="blank" class="fa fa-twitter"> </a></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1">
+                  <i><a href="https://www.linkedin.com/in/anant-patel-088187126/" target="blank" class="fa fa-linkedin"> </a></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-dribbble mx-1">
+                  <i><a href="https://github.com/Anantpatel123" target="blank" class="fa fa-github"> </a></i>
+                </a>
+              </li>
+            </ul>
+            <!-- Social buttons -->
+          
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2018 Copyright:          
+            </div>
+            
+          
+    </footer>
+
+</body>
+</html>
